@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 1 / 4;
+  margin-top: 3.6rem;
+}
+
+.nav > a {
+  font-size: 2.3rem;
+  color: var(--color-text);
+  font-weight: bolder;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.list li + li {
+  margin-left: 4.6rem;
+}
+
+.list li a {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #000000;
+  position: relative;
+}
+
+.list li a::after {
+  content: '';
+  position: absolute;
+  bottom: -.3rem;
+  background: #000000;
+  left: 0;
+  height: .2rem;
+  width: 0%;
+  transition: width .6s ease-in-out;
+}
+
+.list li a:hover::after {
+  width: 100%;
+}

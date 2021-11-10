@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;300;500;700;900&family=Manrope:wght@200;400;600;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './classes.css';
+@import './nav.css';
+@import './apresentation.css';
+@import './services.css';
+@import './residential.css';
+@import './featured.css';
+@import './feedbacks.css';
+@import './footer.css';
+@import './mediasQuery.css';
+@import './dropdown-menu.css';
+@import './modal.css';
+
+:root {
+  --color-primary: #3454D1;
+  --dots-color: #D6DDF6;
+  --color-text: #31353B;
+  --blue-light: #E3FAFF;
+  --color-gray: #DEDFE1;
+  --color-white: #FFFFFF;
+  --color-five: #FEFEFE;
+  --color-six: #FBFCFC;
+  --gray-dark: #9E9FA1;
+  --gray-ultra-dark: #87898C;
+  --color-blue-dark: #6F86DE;
+  --color-line: #F1F3FA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

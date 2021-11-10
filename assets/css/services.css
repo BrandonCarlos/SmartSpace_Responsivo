@@ -1,0 +1,54 @@
+.service {
+  margin-bottom: 10.1rem;
+}
+
+.service-container {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+
+.cards-service {
+  display: flex;
+}
+
+.service-title {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.item {
+  max-width: 26rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item button {
+  padding: 3.3rem;
+  background-color: #9672FF;
+  border-radius: 2rem;
+  margin-bottom: 5rem;
+}
+
+.item-titulo {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.item > p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.item-fita {
+  margin-top: 4rem;
+}
+
+.item .mao {
+  background-color: #4DDFFD;
+}
+
+.item .casa {
+  background-color: #F2B8EC;
+}

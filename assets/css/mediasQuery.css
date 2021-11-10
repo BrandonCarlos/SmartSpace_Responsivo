@@ -1,0 +1,299 @@
+body {
+  background: #ccc;
+}
+
+@media (max-width: 1270px) {
+
+  .apresentation {
+    min-height: 40vh;
+  }
+
+  .apresentation-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 600px 817px;
+  }
+
+  .logo-redes-sociais {
+    grid-column: 1 / 4;
+    margin-top: 2rem;
+  }
+
+  .logo-predio {
+    min-width: 66.3rem;
+    max-height: 58.3rem;
+    margin-left: 26rem;
+  }
+
+  .redes-sociais {
+    margin-top: 2rem;
+  }
+
+  .marcas {
+    grid-column: 1 / 4;
+  }
+
+  .cards-service {
+    justify-content: space-between;
+  }
+
+  .service-container,
+  .residential,
+  .featured-listing,
+  .residential-container,
+  .featured-container {
+    min-width: 126rem;
+  }
+
+  .residential-container,
+  .featured-container {
+    padding: 0rem 2rem;
+  }
+
+  .patrocinios {
+    min-width: 110rem;
+    justify-content: space-between;
+  }
+
+  .feedbacks-grid {
+    min-width: 112rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 34rem));
+    gap: 1rem;
+  }
+
+  .feedback-item {
+    min-width: 32rem;
+  }
+
+  .footer-container {
+    min-width: 126rem;
+    padding: 0rem 2rem;
+  }
+  
+
+}
+
+@media (max-width: 800px) {
+
+  .service {
+    margin-bottom: 30rem;
+  }
+
+  .item {
+    max-width: 45rem;
+  }
+
+  .item h3 {
+    font-size: 3.6rem;
+  }
+
+  .item p {
+    font-size: 2.6rem;
+  }
+
+  .item-fita img {
+    margin: 4rem 0;
+  }
+
+  .apresentation p {
+    max-width: 60.9rem;
+    font-size: 2rem;
+  }
+
+  .logo-redes-sociais {
+    grid-column: 1 / 2;
+  }
+
+  .logo-predio {
+    min-width: 70.3rem;
+    margin-left: 2rem;
+  }
+
+  .redes-sociais {
+    grid-column: 2 / 3;
+  }
+
+  .redes-sociais img {
+    width: 3rem;
+    height: auto;
+  }
+
+  .redes-sociais img:first-child {
+    margin-right: 0rem;
+  }
+
+  .redes-sociais img + img {
+    margin-top: 5.623rem;
+  }
+
+  .marcas {
+    padding: 10rem 0;
+  }
+
+  .marcas-titulo p {
+    font-size: 2.7rem;
+  }
+
+  .marcas-logos img {
+    width: 12.2rem;
+    height: auto;
+  }
+
+  .service-title {
+    font-size: 6rem;
+  }
+
+  .residential-title-description {
+    max-width: 64rem;
+  }
+
+  .residential-title {
+    font-size: 5rem;
+  }
+
+  .residential-description {
+    font-size: 2.6rem;
+  }
+
+  .featured-title {
+    font-size: 6rem;
+  }
+
+  .button-property button {
+    font-size: 2.7rem;
+  }
+
+  .nav-residential ul {
+    justify-content: space-between;
+  }
+
+  .nav-residential ul li a {
+    font-size: 2.4rem;
+  }
+
+  .cards-service {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .residential {
+    min-width: 126rem;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card a {
+    padding: 2.6rem 6.2rem;
+    font-size: 2rem;
+  }
+
+  .home-one,
+  .home-two,
+  .home-three {
+    min-height: 102rem;
+  }
+
+  .feedbacks {
+    min-width: 126rem;
+  }
+
+  .feedbacks-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .feedbacks-container {
+    margin-left: 0rem;
+  }
+
+  .feedbacks-container h1 {
+    min-width: 100%;
+    text-align: center;
+    font-size: 6rem;
+  }
+
+  .feedbacks-container p {
+    font-size: 2.1rem;
+  }
+
+  .feedback-description {
+    max-width: 45rem;
+  }
+
+  .feedback-profile img {
+    height: 5.8rem;
+    width: 5.8rem;
+  }
+
+  .feedback-profile-name p {
+    font-size: 3rem;
+  }
+
+  .feedback-profile-name span {
+    font-size: 2.3rem;
+  }
+
+  .patrocinios {
+    flex-direction: column;
+  }
+
+  .patrocinios-images {
+    margin-bottom: 4rem;
+  }
+
+  .footer-container {
+    min-width: 126rem;
+  }
+
+  .feedback-item {
+    align-items: center;
+    min-width: 45rem;
+  }
+
+  .footer-container {
+    padding: 0 2rem;
+  }
+
+  .footer-content h1 {
+    font-size: 6.5rem;
+  }
+
+  .footer-content p {
+    font-size: 3rem;
+  }
+
+  .input-footer {
+    min-width: 95.6rem;
+    padding: 3.2rem 3rem 3.2rem 4.5rem;
+  }
+
+  .input-footer input {
+    height: 8rem;
+  }
+
+  .input-footer input::placeholder {
+    font-size: 2rem;
+  }
+
+  .input-footer button {
+    min-width: 21.7rem;
+    padding: 2.3rem 4rem;
+    font-size: 2.8rem
+  }
+
+  .footer-links a {
+    font-size: 3.3rem;
+  }
+
+  .footer-links nav ul li a {
+    font-size: 2.3rem;
+  }
+
+  .footer-copy p {
+    font-size: 2.2rem;
+  }
+  
+}

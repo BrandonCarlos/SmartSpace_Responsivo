@@ -1,0 +1,68 @@
+[data-modal] {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: rgba(0, 0, 0, .6);
+  z-index: 200;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+[data-modal].active {
+  display: flex;
+}
+
+.modal {
+  min-width: 50rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 0 10px blue;
+  position: relative;
+}
+
+[data-modal-close] {
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+  color: white;
+  font-size: 2rem;
+  border: 1px solid white;
+  background: blue;
+  padding: 1rem 1.5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px white;
+  cursor: pointer;
+}
+
+.modal label {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: .5rem;
+}
+
+.modal label[for="senha"] {
+  margin-top: 1.6rem;
+}
+
+.modal input {
+  min-width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  padding: 1rem 2rem;
+  background: blue;
+  color: white;
+  border-radius: .5rem;
+}

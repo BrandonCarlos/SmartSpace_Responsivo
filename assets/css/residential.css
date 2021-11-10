@@ -1,0 +1,116 @@
+.residential-container {
+  max-width: 117rem;
+  margin: 0 auto 24.3rem;
+}
+
+.residential-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.residential-title-description {
+  max-width: 47rem;
+  margin-bottom: 5rem;
+}
+
+.residential-title {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.residential-description {
+  font-size: 1.6rem;
+}
+
+.button-property button {
+  background-color: #F85A47;
+  color: #FFFFFF;
+  padding: 2.2rem 3.3rem;
+  border-radius: .5rem;
+  font-size: 1.7rem;
+  box-shadow: 0rem 3.852rem 2.548rem 0rem rgb(248, 90, 71, .2);
+}
+
+.nav-residential {
+  margin-bottom: 5rem;
+}
+
+.nav-residential ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-residential ul li + li {
+  margin-left: 3rem;
+}
+
+.nav-residential ul li a {
+  font-size: 1.9rem;
+  color: #000000;
+  position: relative;
+}
+
+.nav-residential ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  width: 0%;
+  height: .2rem;
+  background-color: #F85A47; 
+  transition: width .6s ease-in-out;
+}
+
+.nav-residential ul li a:hover {
+  color: #F85A47; 
+}
+
+.nav-residential ul li a:hover::after {
+  width: 100%;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(37rem, 1fr));
+  gap: 3rem;
+}
+
+.card {
+  padding: 1.4rem;
+  height: 30rem;
+  border-radius: .5rem;
+}
+
+.home-one,
+.home-two,
+.home-three {
+  background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('/assets/img/home-one.jpg');
+  background-size: cover;
+}
+
+.home-two {
+  background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('/assets/img/home-two.jpg');
+  background-size: cover;
+}
+
+.home-three {
+  background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('/assets/img/home-three.jpg');
+  background-size: cover;
+}
+
+.home-one a,
+.home-two a,
+.home-three a {
+  display: inline-block;
+  color: #000000;
+  background: rgba(0, 0, 0, .5);
+  padding: .6rem 1.2rem;
+  color: white;
+  border: .1rem solid white;
+  border-radius: .5rem;
+  text-align: center;
+}
+
+.home-one a + a {
+  margin-left: .6rem;
+}

@@ -1,0 +1,89 @@
+.feedbacks-container {
+  min-height: 68.4rem;
+  margin-left: 13.5rem;
+  margin-bottom: 21rem;
+}
+
+.feedbacks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 38rem));
+  gap: 3rem;
+  margin-bottom: 8.5rem;
+}
+
+.feedbacks-container h1 {
+  max-width: 57rem;
+  font-size: 4rem;
+  margin-bottom: 5.1rem;
+}
+
+.feedback-item {
+  height: 36.7rem;
+  min-width: 38rem;
+  border-radius: 1rem;
+  padding: 5.2rem 3.8rem;
+  display: flex;
+  flex-direction: column;
+  border: .1rem solid #EBEBEB;
+}
+
+.estrelas {
+  margin-bottom: 3.364rem;
+}
+
+.feedback-description {
+  max-width: 27rem;
+  margin-bottom: 5.3rem;
+}
+
+.feedbacks-container p {
+  font-size: 1.6rem;
+}
+
+.feedback-profile {
+  display: flex;
+  align-items: center;
+}
+
+.feedback-profile img {
+  margin-right: 2rem;
+}
+
+.feedback-profile-name p {
+  font-weight: bold;
+  color: #333333;
+}
+
+.feedback-profile-name span {
+  font-size: 1.4rem;
+  color: #666666;
+}
+
+.patrocinios {
+  display: flex;
+  align-items: center;
+}
+
+.patrocinios-images {
+  margin-left: 4rem;
+}
+
+.patrocinios-images img + img {
+  margin-left: 8rem;
+}
+
+.patrocinios-description {
+  max-width: 30.9rem;
+  margin-left: 10.782rem
+}
+
+.patrocinios-description p {
+  font-size: 1.6rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  line-height: 2.6rem;
+}
+
+.patrocinios-description p a {
+  color: #2CBDE7;
+}

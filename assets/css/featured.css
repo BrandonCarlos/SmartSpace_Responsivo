@@ -1,0 +1,76 @@
+.featured-listing {
+  margin-bottom: 19.6rem;
+}
+
+.featured-container {
+  max-width: 117rem;
+  margin: 0 auto;
+  min-height: 80rem;
+}
+
+.featured-title {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 9.5rem;
+  font-weight: 600;
+}
+
+.featured-information {
+  background-color: #F1FFFF;
+  min-height: 65rem;
+  display: flex;
+  padding: 4rem;
+}
+
+.featured-images {
+  margin-right: 7.7rem;
+}
+
+.featured-images img:last-child {
+  width: 50rem;
+  margin-bottom: -35rem;
+  margin-left: -49rem;
+}
+
+.featured-description {
+  margin-top: 4.4rem;
+  max-width: 40.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-description h2 {
+  font-size: 3.1rem;
+  margin-bottom: 2.8rem;
+}
+
+.featured-description p {
+  max-width: 36.8rem;
+  font-size: 1.6rem;
+  margin-bottom: 4.2rem;
+}
+
+.resume-one {
+  min-width: 38rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-resume h3 {
+  font-size: 1.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.item-resume p {
+  margin-bottom: 3.7rem;
+}
+
+.button-featured {
+  min-width: 41.5rem;
+  background: #F85A47;
+  color: white;
+  font-size: 1.8rem;
+  padding: 1.6rem 3.8rem;
+  border-radius: .5rem;
+  margin-top: 1.7rem;
+}
